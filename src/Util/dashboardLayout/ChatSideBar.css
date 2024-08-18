@@ -1,0 +1,79 @@
+.toggleIcon {
+  padding: 30px 16px 0 0px;
+}
+.allsidebar {
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+/* Define scrollbar styles */
+.allsidebar::-webkit-scrollbar {
+  width: 5px; /* Adjust the width as needed */
+}
+
+.allsidebar::-webkit-scrollbar-thumb {
+  background: #cccccc; /* Color of the scrollbar thumb */
+  /* Round the edges of the thumb */
+}
+
+.allsidebar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Optionally, you can add hover effects */
+.allsidebar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.sidebarContainer {
+  padding: 100px 16px 10px 5px;
+}
+
+.add-button {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  position: relative;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 0px 3px -1px #001a78;
+  text-align: center;
+}
+
+.inputSearch {
+}
+
+.custom-headOfChats {
+  font-size: 13px;
+  font-weight: 600;
+  opacity: 30%;
+}
+
+.buttonChat {
+  background-color: white;
+  overflow-x: hidden;
+  gap: 10px;
+  padding: 10px 0;
+}
+
+.buttonChatText {
+  font-size: 11px;
+  opacity: 50%;
+}
+
+.formik-custom {
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  box-shadow: 0px 0px 4px -2px #001a78;
+}
+.formik-custom::placeholder {
+  text-align: center;
+  opacity: 30%;
+}
+
+.formik-field-custom {
+  border: none;
+  outline: none;
+}

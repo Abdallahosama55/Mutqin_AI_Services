@@ -1,0 +1,36 @@
+.container {
+  padding-bottom: 136px;
+  direction: rtl;
+}
+.header {
+  font-size: 24px;
+  font-weight: 300;
+  color: #001b79;
+  margin-top: 16px;
+}
+.cardContainer {
+  gap: 24px;
+}
+.card {
+  width: 316px;
+  height: 201px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-decoration: none;
+}
+.cardImage {
+  text-align: center;
+}
+.title {
+  font-size: 16px;
+  margin: 12px 0 8px 0;
+}
+.description {
+  font-size: 14px;
+  font-weight: 300;
+}
+.title,
+.description {
+  color: #5225ce;
+}

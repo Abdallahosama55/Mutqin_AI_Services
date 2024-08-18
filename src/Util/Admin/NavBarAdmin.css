@@ -1,0 +1,117 @@
+.nav-container {
+  padding: 24px;
+  width: 90%;
+  padding: 24px 0;
+}
+
+.nav-icon-container {
+  box-shadow: 0px 0px 16px -10px black;
+  height: 45px;
+  align-items: center;
+  border-radius: 25px;
+  border: 1px solid;
+  border-color: rgba(0, 26, 120, 0.1);
+  padding: 5px 15px !important;
+}
+.nav-input-container {
+  height: 45px;
+}
+
+.nav-icon {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-color: #e5e8f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.nav-input {
+  box-shadow: 0px 0px 16px -10px black;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  padding: 15px 20px;
+  border: 1px solid;
+  border-color: rgba(0, 26, 120, 0.1);
+}
+.nav-input::placeholder {
+  opacity: 30%;
+  font-size: 14px;
+  font-weight: 700px;
+}
+
+.avatar-droplist {
+  width: 35px;
+  height: 35px;
+}
+
+.user-name-avatar {
+  display: flex !important;
+  align-items: center;
+  gap: 2px;
+}
+
+.avatar-name {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.hello-text {
+  font-size: 10px;
+}
+
+.button-user-list {
+  background-color: white;
+  border: none;
+  font-size: 14px;
+  color: #001b79;
+  padding: 0px;
+}
+
+.progress-navbar {
+  position: relative;
+  height: 5px;
+  width: 100%;
+  background-color: #001b79;
+  border-radius: 50px;
+  z-index: 0;
+}
+
+.user-navprogress {
+  position: absolute;
+  background-color: #ed5ab3;
+  z-index: 10;
+  border-radius: 50px;
+  height: 100%;
+}
+
+.user-navnumbers {
+  font-family: sans-serif;
+  margin-bottom: 4px;
+  padding-top: 14px;
+}
+
+.droplist-sub-icon {
+  max-width: 18px;
+}
+
+.droplist-subtext {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.count-text {
+  font-size: 12px;
+  font-weight: 700;
+}
+.count-subtext {
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+.count-mainsub-text {
+  font-weight: 400;
+}

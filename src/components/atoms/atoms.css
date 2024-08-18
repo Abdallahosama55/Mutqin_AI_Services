@@ -1,0 +1,115 @@
+/* shared */
+.errorButton:hover {
+  color: white !important;
+}
+
+/* Detector */
+.copy-download-box {
+  max-width: 50%;
+  background-color: white !important;
+  border: none !important;
+}
+
+.number-copy-download-box {
+  border: 1px solid #5225ce !important;
+  color: #5225ce !important;
+  cursor: default !important;
+}
+
+.custom-word {
+  font-size: 8px !important;
+}
+/* Detector */
+.custom-padding {
+  margin: 0 0 35px 0 !important ;
+}
+
+.custom-color {
+  color: #5225ce !important;
+}
+
+.anther-text {
+  padding: 5px 15px !important;
+  font-size: 15px !important;
+  font-weight: 300 !important;
+}
+
+.add-text {
+  border: 1px solid #5225ce33 !important;
+}
+.add-text:hover {
+  color: white !important;
+}
+
+.textcolor {
+  color: #692bef !important;
+}
+
+.fontsize1 {
+  font-size: 18px !important;
+}
+.fontsize2 {
+  font-size: 17px !important;
+}
+.fontsize3 {
+  font-size: 15px !important;
+}
+.fontsize4 {
+  font-size: 14px !important;
+}
+.fontsize5 {
+  font-size: 13px !important;
+}
+.fontsize6 {
+  font-size: 12px !important;
+}
+
+.Custom-Button {
+  display: flex !important;
+  background-color: white !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 5px !important;
+  border: none !important;
+  color: #5225ce;
+}
+.custom-backbround-Button {
+  cursor: pointer !important;
+}
+.custom-backbround-Button:hover .textcolor {
+  color: #5225ce;
+  background-color: white !important;
+}
+.custom-backbround-Button:hover {
+  color: #5225ce;
+  background-color: white !important;
+}
+.stop-Transation {
+  transition: none !important;
+}
+
+.custom-arrow {
+  width: 25px !important;
+  height: 25px !important;
+}
+.customnumber-button {
+  padding: 4px 12px !important;
+}
+/* CheckEditor */
+.cursor-pointer-e {
+  cursor: pointer;
+}
+.message-box {
+  background-color: #f8f9fa;
+  border: 1px solid #5225ce33;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+}
+
+.message-box p {
+  margin: 0;
+}

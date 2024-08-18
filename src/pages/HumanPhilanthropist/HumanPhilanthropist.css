@@ -1,0 +1,36 @@
+.HumanPhilanthropistPage{
+    max-height: 89vh;
+    overflow-y: scroll;
+    overflow-x: hidden ;
+}
+.HumanPhilanthropist{
+    background-color: #5225CE;
+}
+.bg-vectorlight{
+    background-image: url('../../assets/Images/HumanPhilanthropist/light.png');
+    background-size: cover;
+}
+.input-text-area-human{
+    resize: none;
+    width: 100%;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+}
+.border-blue-btn-human{
+    border: var(--bs-border-width) solid var(--bs-border-color);
+}
+
+.btn-blue-human{
+    background:#692BEF;
+    color: white;
+    text-align: center;
+    padding: 8px 50px 8px 50px;
+    border-radius: 5px;
+}
+
+
+
+  .hidden-placeholder {
+    display: none;
+  }
+  
+  

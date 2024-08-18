@@ -1,0 +1,61 @@
+.applayout {
+  display: flex !important;
+  justify-content: space-between !important;
+background: #EBECF4;
+
+}
+.headerLayout {
+  display: flex;
+  justify-content: center;
+}
+
+.openSideBarIcon {
+  font-size: medium !important;
+  font-weight: 600;
+  color: #dcd3f5 !important;
+  height: 20px;
+  width: 20px;
+  right: 45px !important;
+  top: 50% !important;
+  cursor: pointer;
+  transition: all 500ms ease-in-out !important;
+}
+
+.media-close-sidebar {
+
+  /* border-left: ; */
+  height: calc(100vh - 70px) !important;
+
+  min-width: 15%;
+  transition: all 500ms ease-in-out !important;
+}
+
+@media (max-width: 600px) {
+  .media-close-sidebar {
+    transition: all 500ms ease-in-out !important;
+    position: fixed;
+    z-index: 50;
+    top: 0;
+    right: 0;
+    background-color: rgba(252, 252, 252, 1);
+    /* box-shadow: 1px 1px 6px 0px black; */
+    width: 50%;
+  }
+}
+@media (min-width: 600px) and (max-width: 992px) {
+  .media-close-sidebar {
+    transition: all 500ms ease-in-out !important;
+    z-index: 50;
+    top: 0;
+    right: 0;
+
+    background-color:rgba(252, 252, 252, 1);
+    /* box-shadow: 1px 1px 6px 0px black; */
+    width: 35%;
+  }
+}
+
+.closeSideBar {
+  width: 60px;
+  transition: all 500ms ease-in-out !important;
+}

@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+body {
+  padding: 0px !important;
+  margin: 0px !important;
+  height: 100vh !important;
+  background-color: #ffffff !important;
+  overflow-x: hidden !important;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.btn-pink {
+  background-color: #ed5ab3;
+  color: white;
+  border-radius: 10px;
+
+  width: 200px;
+  height: 48px;
+  scale: 0.9;
+
+  border-radius: 10px;
+  border-style: none;
+}
+.text-blue-light {
+  font-family: "GE SS Two light" !important;
+}
+.text-blue {
+  color: #001b79;
+  font-family: "GE SS Two Bold" !important;
+}
+.btn-blue {
+  background-color: #001b79;
+  width: 226px;
+  height: 48px;
+  scale: 0.9;
+
+  border-radius: 10px;
+  gap: 10px;
+}
+.border-form {
+  border: 1px solid rgb(198, 208, 247);
+  border-radius: 25px;
+  padding: 15px 15px 60px;
+}
+
+.btn-min-info {
+  background-color: rgba(0, 27, 121, 0.04) !important;
+  border-style: none !important;
+  border: 1px solid rgba(0, 27, 121, 0.3) !important;
+  width: 35px;
+  height: 35px;
+  border-radius: 7px;
+}
+.btn-min-danger {
+  background-color: rgba(0, 27, 121, 0.04) !important;
+  border-style: none !important;
+  background-color: rgba(216, 162, 162, 0.497) !important;
+
+  border: 1px solid rgba(237, 90, 179, 0.3);
+  width: 35px;
+  height: 35px;
+  border-radius: 7px;
+  color: #ed5ab3;
+}
+
+.border-form-text {
+  border: 0.5px solid rgba(130, 131, 133, 0.3);
+
+  border-radius: 4px;
+
+  opacity: 0.3px;
+}
+.height-result {
+  min-height: 37vh;
+}
+.MuiStep-horizontal {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+.MuiStepLabel-label {
+  font-family: "GE SS Two light" !important;
+  margin: 5px !important;
+  color: #001b79 !important;
+}
+/* body {
+  height: 100vh !important;
+  background-color: #ffffff !important;
+  overflow-x: hidden !important;
+}
+.btn-pink {
+  background-color: #ed5ab3;
+  color: white;
+  border-radius: 10px;
+
+  width: 226px;
+  height: 48px;
+
+  padding: 27px, 71px, 27px, 71px;
+  border-radius: 10px;
+  border-style: none;
+}
+.text-blue {
+  color: #001b79;
+  font-family: "GE SS Two Bold";
+}
+.btn-blue {
+  background-color: #001b79;
+  width: 226px;
+  height: 48px;
+  padding: 27px, 71px, 27px, 71px;
+  border-radius: 10px;
+  gap: 10px;
+}
+.border-form {
+  border: 1px solid rgb(198, 208, 247);
+  border-radius: 25px;
+  padding: 15px 15px 60px;
+}
+
+.btn-min-info {
+  background-color: rgba(0, 27, 121, 0.04) !important;
+  border-style: none !important;
+  border: 1px solid rgba(0, 27, 121, 0.3) !important;
+  width: 35px;
+  height: 35px;
+  border-radius: 7px;
+}
+.btn-min-danger {
+  background-color: rgba(0, 27, 121, 0.04) !important;
+  border-style: none !important;
+  background-color: rgba(216, 162, 162, 0.497) !important;
+
+  border: 1px solid rgba(237, 90, 179, 0.3);
+  width: 35px;
+  height: 35px;
+  border-radius: 7px;
+  color: #ed5ab3;
+}
+
+.border-form-text {
+  border: 1px solid rgba(130, 131, 133, 0.3);
+
+  border-radius: 10px;
+
+  opacity: 0.3px;
+}
+.height-result {
+  min-height: 300px;
+} */
+.editor-content-highlighter:focus-visible {
+  outline: none !important;
+  border: none !important;
+}
+.editor-style p span {
+  color: #001b79 !important;
+  font-size: 20px !important;
+}
+.editor-style[mistakes-error="true"] p span {
+  color: transparent !important;
+}
+.mistake {
+  background: rgba(255, 0, 0, 0.084) !important;
+  border-bottom: 2px solid rgb(255 0 0 / 67%) !important;
+}
+.grammar {
+  background: #00e57a19;
+  border-bottom: 2px solid #00e57b;
+}
+
+.lexicon {
+  background: rgb(255, 193, 7, 0.084);
+  border-bottom: 2px solid rgb(255, 193, 7);
+}
+
+.drafting {
+  background: rgba(82, 37, 206, 0.084);
+  border-bottom: 2px solid rgb(82, 37, 206);
+}
+
+.other-corrections {
+  background: #e211e61c;
+  border-bottom: 2px #e211e6;
+}
+
+.popuptext {
+  background-color: white;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  opacity: 0;
+  transition: 50ms;
+}
+.hover-to-display {
+  z-index: 50 !important;
+}
+
+.hover-to-display:hover .popuptext {
+  display: block;
+  opacity: 1 !important;
+  top: 25px !important;
+  right: 0%;
+
+  width: max-content;
+  height: max-content;
+
+  padding: 10px;
+  opacity: 0;
+  border: 1px solid #5225ce;
+  border-radius: 10px;
+}
+.popuptext-content {
+  display: none;
+}
+.hover-to-display:hover .popuptext-content {
+  display: block;
+}
+
+.moadalCustom {
+  width: 60% !important;
+  margin: auto !important;
+}
+.moadalCustom {
+  width: 60% !important;
+  margin: auto !important;
+}
+
+@media (max-width: 1023px) {
+  .moadalCustom {
+    width: 100% !important;
+    margin: auto !important;
+  }
+}
+
+.customButtonModal {
+  width: 50% !important;
+  justify-content: center;
+}
+.customButtonModal:hover {
+  color: white !important;
+}
+
+.customButtonContainer {
+  width: 60%;
+  margin: auto;
+}
+
+@media (max-width: 1023px) {
+  .customButtonContainer {
+    width: 100% !important;
+    display: flex;
+
+    margin: auto !important;
+  }
+}
+@media (max-width: 600px) {
+  .customButtonContainer {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column !important;
+    margin: auto !important;
+  }
+  .customButtonModal {
+    width: 100% !important;
+    justify-content: center;
+  }
+}
+.modal-backdrop.show {
+  opacity: var(--bs-backdrop-opacity);
+  z-index: 0;
+}
+.btn-primary:hover {
+  color: #ffffff !important;
+}
+.btn-outline-secondary:hover {
+  color: #ffffff !important;
+}
+.input-chat-title:active {
+  border-style: none !important;
+  cursor: pointer !important;
+  border: 0px;
+}
+.input-chat-title:focus {
+  cursor: pointer !important;
+  border-style: none !important;
+  border: 0px;
+}
+.input-chat-title {
+  border-style: none !important;
+  border: 0px;
+  cursor: pointer !important;
+}
+.btn-white-modal {
+  background: #ffffff !important;
+  border: 1px solid #5225ce !important;
+  color: #5225ce !important;
+}
+
+.custom-button-search {
+  width: 80px !important;
+  font-size: 13px !important;
+}
+
+@media (min-width: 992px) {
+  .custom-button-search {
+    width: 100px !important;
+    font-size: 14px !important;
+
+  }
+}
+.MuiChartsLegend-root  {
+  display: none !important;
+}
+
+
+.hover-icon :hover{
+  filter: brightness(0) invert(1) !important;
+}
+
+
+.icon_selected_icon{
+  filter: brightness(0) invert(1);
+}
+
+
+/* Icon within the card */
+.card .icon {
+  transition: filter 0.3s ease;
+}
+
+/* Hover effect for the icon */
+.card:hover .icon {
+  filter: brightness(0) invert(1) !important;
+}
+

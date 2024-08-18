@@ -1,0 +1,65 @@
+/* AIModal */
+.buttonHover:hover {
+  color: white !important;
+}
+/* Editor */
+.EditorInput-custom {
+  max-width: 85% !important;
+}
+
+/* Toolbar */
+.arrowInput-custom {
+  left: -10px;
+}
+
+.inputToolbar-Custom {
+  border: 1px solid #5225ce !important;
+}
+
+.custom-sansFont {
+  font-family: sans-serif;
+}
+
+.listIcons-custom {
+  height: 12px;
+  width: 16px;
+  color: #5225ce;
+}
+
+.hoverOnButton:hover {
+  color: white !important;
+}
+
+.border-customNumber {
+  border-radius: 50%;
+  /* border: 1px solid #5225ce !important; */
+}
+
+.mistake-dropdown {
+  z-index: 1000;
+}
+
+.editor-content {
+  height: 500px;
+  overflow-y: scroll;
+  padding-bottom: 100px;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  will-change: transform;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.175);
+  z-index: 1000;
+}
+
+.dropdown-menu.show {
+  display: block;
+}
+
+.dropdown-item {
+  padding: 0.25rem 1.5rem;
+  cursor: pointer;
+}

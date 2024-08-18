@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+.font-basic {
+  color: rgba(82, 37, 206, 1);
+}
+.bg-blue {
+  background: rgba(82, 37, 206, 1);
+}
+.height-card {
+
+  border: 1px solid #5522ef6a !important;
+}
+.border-blue {
+  border: 1px solid #5522ef6a;
+}
+
+@media only screen and (max-width: 768px) {
+  /* Styles specific to screens with a maximum width of 768px (typical tablets and mobile devices) */
+  .height-card {
+    min-height: 600px !important;
+  }
+  /* Additional styles specific to smaller screens */
+}
+
+.font-number {
+  font-family: "Inter";
+}
+.offer-badge{
+  color: #5522ef;
+  font-weight: bolder;
+}
+
+.offer-badge2{
+  border: 1px solid #5522ef4b;
+  font-weight: bolder;
+  color: #5522ef;
+}
+.font-darkblue{
+  color:rgba(0, 27, 121, 1)
+}
+.font-list{
+  font-size: 14px;
+  font-weight: 300;
+  color: rgba(0, 27, 121, 1) !important;
+  padding: 2px;
+}
+.border-card1{
+
+  border: 1px solid rgba(197, 183, 235, 1);
+
+}
+.button-card1{
+color: #fff;
+  background-color:rgba(110, 76, 205, 0.4);
+}
+
+
+.border-card2{
+
+  border: 1px solid rgba(255, 156, 108, 0.7) !important;
+
+}
+.button-card2{
+color: #fff;
+  background-color:#EB7203;
+}
+
+
+.border-card3{
+
+  border: 1px soli rgba(102, 184, 228, 1) !important;
+ 
+
+}
+.button-card3{
+color: #fff;  background-color: #1FB5AC;
+}
+
+
+
+
+.border-card4{
+
+  border: 4px solid#7238F0 !important;
+
+}
+.button-card4{
+color: #fff;
+ background-color:#7238F0 ;
+}
+
+.badget-card1{
+  color:rgba(105, 43, 239, 1);
+}
+.badget-card2{
+  color:rgba(255, 156, 108, 1);
+}
+
+.badget-card3{
+  color:rgba(102, 184, 228, 1);
+}
+
+.badget-card4{
+  color:#7238F0;
+  font-size: 16px;
+}
+
+.price-premuim-color{
+  color: green;
+}
+.text-Orange {
+  color:#EB7203
+}
+.text-blue-bold{
+  color: #001B79;
+  font-weight: 600;
+  font-size: 13px;
+
+}

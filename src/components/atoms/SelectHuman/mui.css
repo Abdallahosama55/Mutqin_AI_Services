@@ -1,0 +1,20 @@
+.Mui-selected.Mui-selected.Mui-selected.Mui-selected {
+  color: white;
+  background-color: #5225ce;
+}
+.Mui-selected.Mui-selected.Mui-selected.Mui-selected:hover {
+  color: white;
+  background-color: #5225cee9;
+}
+.Mui-focusVisible.Mui-focusVisible.Mui-focusVisible {
+  background-color: #5225ce;
+  color: white;
+}
+.Mui-focused.Mui-focused.Mui-focused fieldset {
+  border: 1px solid #a992e7;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(82, 37, 206, 0.25);
+}
+.MuiPaper-root.MuiPaper-root:has(.MuiMenu-list.MuiMenu-list) {
+  max-height: 50%;
+}

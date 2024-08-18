@@ -1,0 +1,44 @@
+.table-c .img {
+   width: 1.1rem;
+
+}
+.table-c .condtion {
+   border-radius: 3.125rem;
+   /* opacity: 0.1; */
+   background: var(--secnd, #ed5ab228);
+}
+.table-c p{
+    color: rgba(82, 37, 206, 1);
+/* text-align: center; */
+/* font-family: "Tajawal"; */
+font-size: 0.65rem;
+font-style: normal;
+font-weight: 700;
+
+}
+/* Styles for screens smaller than 768px (typical mobile phones) */
+@media (max-width: 767px) {
+   .table-c .img {
+      width: 1.1rem;
+   
+   }
+   .table-c .condtion {
+      border-radius: 3.125rem;
+      /* opacity: 0.1; */
+      background: var(--secnd, #ed5ab228);
+   }
+   .table-c p{
+       color: rgba(82, 37, 206, 1);
+   /* text-align: center; */
+   /* font-family: "Tajawal"; */
+   font-size: 0.5rem;
+   font-style: normal;
+   font-weight: 700;
+   
+   }
+   .basic-button{
+      min-width: 1px !important;
+      padding: 0px;
+    }
+ }
+ 

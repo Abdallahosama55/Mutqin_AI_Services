@@ -1,0 +1,55 @@
+.editor-panel {
+  width: 80%;
+}
+
+@media (max-width: 1550px) {
+  .editor-panel {
+    width: 100%;
+  }
+}
+
+.highlighted-text {
+  position: relative;
+  display: inline;
+  z-index: 50;
+}
+
+.popuptext {
+  visibility: hidden;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.highlighted-text:hover .popuptext {
+  visibility: visible;
+}
+
+.editor {
+  min-height: 200px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.mistake-dropdown {
+  z-index: 1000;
+}
+
+mark {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-decoration: underline;
+  font-size: 16px;
+  margin: 3px 3px;
+  text-underline-position: under;
+  padding: 3px 4px;
+}
+
+.ProseMirror {
+  user-select: text !important;
+}

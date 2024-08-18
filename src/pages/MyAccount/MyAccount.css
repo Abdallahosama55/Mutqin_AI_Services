@@ -1,0 +1,71 @@
+.text-move {
+  color: rgba(82, 37, 206, 1) !important;
+}
+.border-custom {
+  border-color: rgba(82, 37, 206, 0.368) !important;
+}
+
+.border-custom-container {
+  border: 1px solid rgba(82, 37, 206, 0.134) !important;
+}
+
+.btn-move1 {
+  background-color: rgba(82, 37, 206, 1) !important;
+  border-style: none !important;
+}
+
+
+.btn-move1 :disabled {
+  background-color: rgba(82, 37, 206, 1) !important;
+  border-style: none !important;
+}
+.btn.disabled,
+.btn:disabled,
+fieldset:disabled .btn {
+  background-color: rgba(82, 37, 206, 1) !important;
+  border-style: none !important;
+  color: aliceblue !important;
+}
+
+.button-white {
+  background-color: white !important;
+  border: 1px solid rgba(82, 37, 206, 0.134) !important;
+}
+.border-custom-red {
+  border: 1px solid rgba(235, 78, 78, 1) !important;
+}
+.btn-red {
+  background-color: rgba(235, 78, 78, 1) !important;
+}
+.text-red {
+  color: rgba(235, 78, 78, 1);
+}
+
+
+
+/* For XL screens (min-width: 1200px) */
+@media only screen and (min-width: 1200px) {
+  .container-myaccount{
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-left: 50px;
+  }
+}
+
+/* For XXL screens (min-width: 1600px) */
+@media only screen and (min-width: 1600px) {
+  .container-myaccount{
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-left: 50px;
+  }
+}
+
+/* For LG screens (min-width: 992px) */
+@media only screen and (min-width: 992px) {
+  .container-myaccount{
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-left: 50px;
+  }
+}

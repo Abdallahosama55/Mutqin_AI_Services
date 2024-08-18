@@ -1,0 +1,206 @@
+.gapuser {
+  gap: 8px !important;
+  height: auto;
+  border: 1px solid #5225ce33;
+  border-radius: 6.28px;
+  padding: 2px 0px 2px 2px;
+  margin-top: 18px;
+}
+.bordercustomColor {
+  border-color: #5225ce !important;
+}
+
+.custom-placeHolder {
+  font-size: 14px;
+  color: #001a784d !important;
+}
+
+.titlePragraph {
+  font-size: 12px;
+  padding: 1px 2px !important;
+}
+
+.editorCustom {
+  /* max-width: 700px !important;
+  max-height: 490px; */
+
+  height: calc(100vh - 235px);
+  overflow-y: scroll;
+  /* z-index: 9999; */
+}
+
+@media (max-width: 1199px) {
+  .editorCustom {
+    height: 490px;
+  }
+}
+
+/* @media (max-width: 361px) {
+  .editorCustom {
+    max-width: 50px !important;
+  }
+}
+@media (max-width: 389px) {
+  .editorCustom {
+    max-width: 260px !important;
+  }
+}
+@media (max-width: 400px) {
+  .editorCustom {
+    max-width: 280px !important;
+  }
+}
+@media (max-width: 500px) {
+  .editorCustom {
+    max-width: 300px !important;
+  }
+}
+@media (min-width: 767px) and (max-width: 1020px) {
+  .editorCustom {
+    max-width: 590px !important;
+  }
+} */
+.customTranslateX {
+  transform: translate(-44%, 10%) !important;
+}
+
+.linkhover {
+  position: relative !important;
+  padding: 0px !important;
+}
+.linkhover:hover .buttonOfLink {
+  position: absolute !important;
+  display: block;
+}
+.copystyle {
+  padding: 0px !important;
+}
+
+.buttonOfLink,
+.buttonimge {
+  /* position: absolute !important; */
+  display: none;
+  background-color: white;
+  top: 30px;
+
+  z-index: 50;
+  font-size: 10px;
+  padding: 0px !important;
+  border: 1.71px solid #5225ce33;
+  border-radius: 8px;
+  color: #001b79;
+  right: -30px;
+}
+.buttonOfLink {
+  width: 78px;
+  font-size: 10px;
+}
+.linkhover:hover .buttonimge {
+  /* position: absolute !important; */
+  display: block;
+}
+
+.buttonimge {
+  font-size: 8px;
+  z-index: 100;
+  width: 100px;
+  border: 2px solid #5225ce33;
+}
+.exportButton {
+  background-color: #5225ce;
+  color: white;
+  border-color: #5225ce;
+}
+.exportButton:hover {
+  background-color: white;
+  color: #5225ce;
+  border-color: #5225ce;
+}
+.export-fontSize {
+  background-color: white;
+  color: #001a78;
+}
+.export-fontSize:hover {
+  background-color: #001a78;
+  color: white;
+}
+
+.links-Containerss {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+  z-index: 120;
+  right: -40px;
+  border-radius: 10px;
+  width: 90px;
+  height: 90px;
+  border: 2px solid #5225ce33;
+  cursor: default !important;
+}
+
+.imageCustom {
+  top: 40px;
+  font-size: 8px;
+  z-index: 100;
+  width: 90%;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid #5225ce33;
+  cursor: default !important;
+}
+.adrag {
+  cursor: default !important;
+}
+
+.firstFont {
+  font-family: sans-serif;
+  font-size: 18px !important;
+}
+.firstFont2 {
+  font-family: sans-serif;
+  font-size: 17px !important;
+}
+.firstFont3 {
+  font-family: sans-serif;
+  font-size: 16px !important;
+}
+.firstFont4 {
+  font-family: sans-serif;
+  font-size: 15px !important;
+}
+.firstFont5 {
+  font-family: sans-serif;
+  font-size: 14px !important;
+}
+.firstFont6 {
+  font-family: sans-serif;
+  font-size: 13px !important;
+}
+.fontSans-Serif {
+  font-family: sans-serif;
+}
+
+.arrow1Input-custom {
+  left: -4px;
+}
+
+.listIcons1-custom {
+  height: 11px;
+  width: 13px;
+  color: #5225ce;
+}
+
+.placeholder-custom::placeholder {
+  color: #001a78;
+  font-size: 9px;
+}
+
+.editorFontText {
+  font-size: 20px;
+  color: black;
+}
+
+.imageCurser {
+  cursor: pointer !important;
+}

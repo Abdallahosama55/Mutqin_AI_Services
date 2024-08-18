@@ -1,0 +1,32 @@
+.myCustomInput::placeholder {
+  font-size: 14px;
+  font-weight: 300;
+  color: #001a7880;
+}
+
+.myCustomForm {
+  height: 100%;
+  flex: 1;
+}
+
+.myCustomSearchInput::placeholder {
+  color: #001a78;
+  opacity: 0.5; /* Firefox */
+  font-size: 17px;
+}
+
+.myCustomSearchInput::-ms-input-placeholder {
+  /* Edge 12 -18 */
+  color: #001a78;
+  opacity: 0.5; /* Firefox */
+  font-size: 17px;
+}
+
+.myCustomSearchInput {
+  font-size: 17px;
+  direction: rtl;
+}
+
+
+
+

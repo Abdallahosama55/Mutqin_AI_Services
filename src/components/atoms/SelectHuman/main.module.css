@@ -1,0 +1,108 @@
+
+
+.form-select.form-select {
+  width: 100%;
+  padding: 0;
+  font-family: "Tajawal";
+  border-radius: 6px;
+}
+.form-select.form-select.form-select.form-select > div {
+  padding-right: 14px;
+  padding-left: 32px;
+  /* height: 100%; */
+  height: calc(20px + 1.6vw);
+  box-sizing: border-box;
+  padding-top: calc(2px + 0.2vw);
+  padding-bottom: calc(2px + 0.2vw);
+  display: flex;
+  align-items: center;
+}
+
+.form-select.form-select svg {
+  right: unset;
+  left: 7px;
+}
+
+.form-select.form-select fieldset {
+  border: var(--bs-border-width) solid var(--bs-border-color);
+}
+.form-select.form-select:hover fieldset {
+  border: var(--bs-border-width) solid var(--bs-border-color);
+}
+
+.select-item.select-item {
+  color: #001b79;
+  direction: rtl;
+  border: 1px solid #dcdcdc;
+  margin: 6px;
+  font-family: "Tajawal";
+  border-radius: 9px;
+  font-size: calc(10px + 0.2vw);
+  font-weight: 500;
+  min-height: unset;
+}
+.select-item.select-item:hover {
+  background-color: #5225ce;
+  color: white;
+  /* background-color: #5225cee9; */
+}
+
+.skip.skip {
+  font-size: calc(5px + 0.3vw);
+  font-weight: 700;
+  color: #001b7999;
+  margin-bottom: 0;
+  height: 24px;
+}
+p.skip.skip {
+  margin-top: calc(0.4vw);
+  margin-bottom: calc(1.1vw);
+}
+.arrows.arrows {
+  margin-top: calc(0.7vw);
+  height: 40px;
+  align-items: center;
+}
+.arrows.arrows button {
+  cursor: pointer;
+
+  background-color: white;
+}
+.arrows.arrows button svg {
+  width: calc(18px + 0.8vw);
+  height: calc(18px + 0.8vw);
+}
+.arrows.arrows button.disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+input[name="num_Of_points"] {
+  width: 70px;
+}
+
+
+
+
+
+
+
+
+/* Media query for mobile screens */
+@media (max-width: 600px) {
+
+
+  .form-select.form-select.form-select.form-select > div {
+    padding-right: 14px;
+    padding-left: 32px;
+    /* height: 100%; */
+    height: calc(20px + 4vw);
+    box-sizing: border-box;
+    padding-top: calc(2px + 0.2vw);
+    padding-bottom: calc(2px + 0.2vw);
+    display: flex;
+    align-items: center;
+  }
+  
+
+}

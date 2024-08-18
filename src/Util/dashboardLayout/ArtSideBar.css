@@ -1,0 +1,50 @@
+.art-sidebar-container {
+  padding: 24px 10px;
+  height: 100vh;
+}
+
+.art-sidebar-title {
+  padding: 8px 12px;
+  border: 1px solid #001b79;
+  border-radius: 10px;
+  margin-bottom: 16px;
+  margin-top: 24px;
+}
+
+.select-from-box {
+  width: 100%;
+  border-radius: 10px;
+  padding: 8px 8px;
+  border: 1px solid #001b79;
+  color: #001b79;
+}
+
+.textarea-label {
+  font-size: 12px;
+  margin: 16px 0;
+}
+
+.textarea-form {
+  height: 178px;
+  border: 1px solid #001b79;
+  border-radius: 10px;
+  max-height: 150px;
+  resize: none;
+  padding: 8px;
+}
+.textarea-form::placeholder {
+  font-size: 10px;
+}
+
+.textarea-form:focus {
+  outline: none;
+}
+
+.formik-button {
+  width: 100%;
+  border-radius: 10px;
+  background-color: #001b79;
+  color: white;
+  margin-top: 26px;
+  padding: 8px 8px;
+}

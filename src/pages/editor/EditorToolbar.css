@@ -1,0 +1,106 @@
+.drop-down:has(> .custom-num-item) {
+  transform: translate(-30%, 10%) !important;
+}
+.custom-image-icon {
+  width: 16px;
+  height: 12px;
+}
+
+.drop-down:has(.import-img-box) {
+  transform: translate(-7%, 5%) !important;
+}
+.drop-down .import-img-box {
+  font-family: "Tajawal";
+  width: 252px;
+  /* width: calc(4vw + 175px); */
+  height: 158px;
+  /* height: calc(2.21vw + 108px); */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  cursor: initial;
+}
+.drop-down:has(.import-img-box) button.option {
+  background-color: white;
+  margin: 1rem;
+}
+.drop-down:has(.import-img-box) .insert-url {
+  color: #001b79;
+  font-size: 16px;
+  font-weight: 300;
+}
+.drop-down:has(.import-img-box) .insert-url button {
+  background-color: white;
+  border: 1px solid #d0d0d0;
+  border-radius: 7px;
+  padding: 0.15rem 1rem;
+  color: #001b79;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.drop-down:has(.import-img-box) .dragBox {
+  cursor: pointer;
+  width: 220px;
+  height: 70px;
+  position: relative;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  color: #bebebe;
+  border: 1px solid #ccc;
+  border-radius: 9px;
+  display: inline-block;
+}
+.drop-down:has(.import-img-box) .dragBox input[type="file"] {
+  cursor: pointer;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  
+  opacity: 0;
+  top: 0;
+  left: 0;
+}
+.drop-down:has(.import-img-box)
+  .dragBox
+  input[type="file"]::-webkit-file-upload-button {
+  cursor: pointer;
+}
+
+.drop-down-list_editor {
+  background-color: #ffffff;
+  box-shadow: 0px 8px 8px 8px rgba(0, 0, 0, 0.095);
+  padding: 6px;
+  border-radius: 9px;
+  /* text-align: center; */
+  transform: translate(-10%, calc(100% + 6px));
+  z-index: 9999;
+  left: 0;
+  bottom: 0;
+}
+.drop-down-list_editor div {
+  margin: 0 auto;
+}
+
+.drop-down .heading-drop-down:first-child {
+  font-size: 12.5px;
+}
+.drop-down .heading-drop-down:nth-child(2) {
+  font-size: 27.5px;
+}
+.drop-down .heading-drop-down:nth-child(3) {
+  font-size: 25px;
+}
+.drop-down .heading-drop-down:nth-child(4) {
+  font-size: 22.5px;
+}
+.drop-down .heading-drop-down:nth-child(5) {
+  font-size: 20px;
+}
+.drop-down .heading-drop-down:nth-child(6) {
+  font-size: 17.5px;
+}
+.drop-down .heading-drop-down:nth-child(7) {
+  font-size: 15px;
+}

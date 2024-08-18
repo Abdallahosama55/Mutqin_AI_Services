@@ -1,0 +1,77 @@
+.bar-c {
+  background-color: #fff;
+  border-radius: 3.125rem;
+
+  box-shadow: 5px 5px 50px 0px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+.bar-c .btn {
+  color: var(--primary, #001b79);
+  text-align: center;
+  /* font-family: "Tajawal"; */
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.0625rem; /* 94.444% */
+  padding: 0.9rem 3.2rem;
+  border-radius: 3.125rem;
+  transition: all 0.2s;
+}
+.bar-c .btn:hover {
+  border: 1px solid #001b79;
+}
+.bar-c p {
+  color: var(--primary, #001b79);
+  text-align: end;
+  font-family: "Tajawal";
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.5rem; /* 120% */
+}
+.bar-c h3 {
+  color: var(--primary, #001b79);
+  text-align: end;
+  font-family: "Tajawal";
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5rem; /* 109.091% */
+}
+.bar-c .css-66gjpw-MuiResponsiveChart-container {
+  width: 100% !important;
+}
+.bar-c
+  .MuiChartsLegend-root.MuiChartsLegend-column.css-1u0lry5-MuiChartsLegend-root {
+  display: none;
+}
+@media screen and (max-width: 1600px) {
+  .bar-c
+    .MuiChartsLegend-root.MuiChartsLegend-column.css-1u0lry5-MuiChartsLegend-root {
+    display: none;
+  }
+}
+
+.center-label {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  font-weight: bold;
+  color: #333; /* Adjust color as needed */
+}
+
+/* For screens larger than 768px */
+@media (min-width: 768px) {
+  .css-1au3miv-MuiResponsiveChart-container {
+    margin-right: -100px !important;
+  }
+}
+
+/* For screens larger than 576px and up to 768px */
+@media (min-width: 576px) and (max-width: 767px) {
+  .css-1au3miv-MuiResponsiveChart-container {
+    margin-right: -100px !important;
+  }
+}

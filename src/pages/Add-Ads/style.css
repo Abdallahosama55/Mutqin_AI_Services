@@ -1,0 +1,173 @@
+:root {
+  --main-color: #5225ce;
+  /* Define the main color */
+  --main-border: hsla(256, 70%, 48%, 0.2);
+  /* Define the main border color */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section {
+  padding-top: 10px;
+}
+
+.right_side {
+  padding: 10px;
+}
+
+.right_side .search_bar {
+  border: 1px solid var(--main-border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  padding: 0 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.right_side .search_bar input[type="text"] {
+  padding: 10px;
+  border: none;
+  direction: rtl;
+  outline: none;
+  box-shadow: none;
+  /* Remove Bootstrap's default box-shadow on focus */
+  width: 90%;
+}
+
+.right_side .search_bar input[type="text"] {
+  padding: 10px;
+  border: none;
+  direction: rtl;
+  outline: none;
+  box-shadow: none;
+  /* Remove Bootstrap's default box-shadow on focus */
+}
+
+.ads_details {
+  border: 1px solid var(--main-border);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 15px auto;
+  padding: 0 10px;
+  border-radius: 10px;
+}
+
+.ads_product p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 13px;
+}
+
+.ads_product {
+  border: 1px solid var(--main-border);
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px auto;
+  padding: 0 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.product_option {
+  border: 1px solid var(--main-border);
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px auto;
+  padding: 0 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.options {
+  margin: 5px auto;
+  transition: all 0.3s ease-in-out;
+  color: hsla(227, 100%, 24%, 0.4);
+}
+
+.options p {
+  color: inherit;
+}
+.active {
+  background: var(--main-color);
+  color: #fff;
+}
+.options:hover {
+  background: var(--main-color);
+}
+
+.options:hover.options p {
+  color: white !important;
+}
+
+.btn-create-ads {
+  background: var(--main-color);
+  color: white;
+  border: none;
+  margin: 20px 0 30px 0px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-create-ads-disabled {
+  background: hsla(227, 100%, 24%, 0.5);
+  color: white;
+  border: none;
+  margin: 20px 0 30px 0px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  cursor: not-allowed;
+  transition: all 0.3s ease-in-out;
+}
+
+.ads-description {
+  margin-top: 10px;
+  border: 1px solid var(--main-border);
+  width: 95%;
+  text-overflow: clip;
+  padding: 10px;
+  border-radius: 10px;
+  min-height: 300px;
+  direction: rtl;
+  resize: none;
+  outline: none;
+  color: rgba(0, 27, 121, 0.4);
+}

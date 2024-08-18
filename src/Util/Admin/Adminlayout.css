@@ -1,0 +1,13 @@
+.lay-out {
+  height: 100vh;
+  font-family: sans-serif;
+  background-color: #f0f4f9;
+  color: #000000;
+}
+.admin-side-bar {
+  min-width: 250px;
+  padding-top: 24px;
+}
+.dashboard-container {
+  width: 95%;
+}

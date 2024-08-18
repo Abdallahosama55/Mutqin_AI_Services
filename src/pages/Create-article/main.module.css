@@ -1,0 +1,39 @@
+.main {
+  --tint-border: #d6d6d6;
+  --tint-color-text: #8c8c8c;
+  --main-color: #5225ce;
+  --main-color-trans: #5225d033;
+  --font-color: #001b79;
+  height: calc(100vh - 60px);
+}
+
+.main-box.main-box {
+  font-family: "Tajawal";
+  color: var(--font-color);
+  border: 1px solid var(--tint-border);
+  /* padding: 18px 0 12px 0; */
+  /* max-height: calc(100vh - 90px); */
+  height: calc(100vh - 90px);
+  overflow-y: scroll;
+  margin-top: 20px;
+}
+.suggestion-box.suggestion-box {
+  border: 1px solid var(--tint-border);
+  /* height: calc(100% - 25px); */
+  height: calc(100vh - 90px);
+  /* max-height: calc(100vh - 90px); */
+  padding: 16px 14px 14px 14px;
+  margin-top: 20px;
+}
+@media screen and (max-width: 991px) {
+  /* .suggestion-box.suggestion-box {
+    height: fit-content;
+  } */
+  .main-box.main-box {
+    height: fit-content;
+  }
+}
+
+input[type="checkbox"] {
+  accent-color: var(--main-color);
+}

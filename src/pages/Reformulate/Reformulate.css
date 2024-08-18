@@ -1,0 +1,189 @@
+.contianer-editor {
+  border: 1px solid #5225ce33;
+  border-radius: 8px;
+}
+.container-page-refomulate {
+  padding: 0px 35px;
+}
+
+.generat-button {
+  border: none;
+  outline: none;
+  background-color: #5225ce !important;
+  color: white;
+  padding: 3px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-size: calc(6.5px + 0.5vw);
+  font-weight: 500;
+}
+
+.custom-droplist {
+  text-indent: 9px;
+  text-overflow: "";
+  display: inline-block;
+  position: relative;
+  font-size: 10px;
+
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #001a78;
+  background-color: #fff;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.export-fontSize {
+  background-color: white;
+  color: #001a78;
+}
+.export-fontSize:hover {
+  background-color: #001a78;
+  color: white;
+}
+
+.dropListExport {
+  background-color: white;
+  z-index: 5;
+  top: 40px;
+  border-radius: 6px;
+  right: -30px;
+  box-shadow: 0px 4px 30px 0px #0000001a;
+  padding: 8px 0;
+}
+
+.DroplistButton {
+  border: none;
+  outline: none;
+  width: 100%;
+  background-color: transparent;
+  font-family: sans-serif !important;
+  font-weight: 600;
+  font-size: 12px;
+  display: flex;
+  gap: 5px;
+  border-radius: 8px;
+  align-items: center;
+  padding: 6px 10px;
+  color: #5225ce;
+}
+.DroplistButton:hover {
+  transform: scale(1.2);
+}
+
+.droplistImage {
+  max-width: 20px;
+  max-height: 20px;
+}
+
+.exportButton {
+  background-color: #5225ce;
+  color: white;
+  border-color: #5225ce;
+}
+.exportButton:hover {
+  background-color: white;
+  color: #5225ce;
+  border-color: #5225ce;
+}
+
+.progressas {
+  width: 50%;
+  background: #001a78;
+  height: 8px;
+  border-radius: 12px;
+}
+
+.progressasbar {
+  border-radius: 12px;
+}
+.progresNumber {
+  font-family: sans-serif;
+  color: #001a78;
+  padding: 0 10px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.droplist-lang {
+  display: flex;
+  justify-content: space-between;
+  width: 150px !important;
+  padding: 2px 8px;
+  color: #001a78;
+  align-items: center;
+  border: none;
+  outline: none;
+  background-color: white;
+  font-size: 12px;
+  border: 1px solid #001a7825 !important;
+  border-radius: 5px;
+}
+@media (max-width: 600px) {
+  .droplist-lang {
+    width: 80px !important;
+  }
+}
+
+.droplist-lang-lang {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  top: 30px;
+  text-align: center;
+  z-index: 100;
+  right: 0px;
+  width: 100%;
+  height: 150px;
+  overflow-y: auto;
+  background-color: white;
+  padding: 10px 8px;
+  border: 1px solid #001a7811 !important;
+  border-radius: 8px;
+}
+
+.lang {
+  font-size: 10px !important;
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #001a7833;
+  padding: 5px 8px;
+  border-radius: 8px;
+  text-align: start;
+}
+@media (max-width: 600px) {
+  .droplist-lang {
+    width: 80px;
+  }
+  .droplist-lang-lang {
+    padding: 10px 0px;
+  }
+  .lang {
+    text-align: center;
+  }
+}
+.lang:hover {
+  background-color: #5225ce;
+  color: white;
+}
+.lang-selected {
+  background-color: #5225ce;
+  color: white;
+}
+.paraphrase-title {
+  font-size: 12px;
+  border-radius: 5px;
+  border: 1px solid #d3d2d2;
+  padding: 2px 6px;
+  outline: none;
+  width: 150px !important;
+}
+.border-options-reformulate{
+
+border: 2px dashed #5225ce98;
+color:#5225CE ;
+font-size: 14px;
+font-weight: 500;
+}

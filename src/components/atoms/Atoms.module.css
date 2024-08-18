@@ -1,0 +1,22 @@
+.article-loading span {
+  font-size: calc(9.5px + 0.45vw);
+  line-height: unset;
+  height: calc(9.3px + 0.45vw);
+}
+
+.article-loading > div {
+  gap: 0.1rem;
+}
+
+.article-loading [aria-hidden="true"] {
+  width: calc(10px + 0.45vw);
+  height: calc(10px + 0.45vw);
+}
+.article-done {
+  border: 1px solid var(--tint-border);
+  border-radius: 50%;
+  height: calc(10px + 0.6vw) !important;
+  width: calc(10px + 0.6vw) !important;
+  color: green;
+  border: unset;
+}

@@ -1,0 +1,13 @@
+.side-bar-edit {
+  border-radius: 50px;
+  box-shadow: 0px 0px 16px -10px black;
+}
+
+.isActiveLink {
+  color: #001a72 !important;
+}
+
+.link-hovers:hover {
+  color: #001a72 !important;
+  background-color: white !important;
+}

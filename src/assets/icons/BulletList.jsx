@@ -1,0 +1,64 @@
+import React from "react";
+
+export const BulletList = ({ width = "61", height = "61" }) => {
+  return (
+    <svg
+      width={width}
+      height={height}
+      viewBox="0 0 61 61"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg">
+      <rect
+        x="13.8636"
+        y="13.8633"
+        width="41.5909"
+        height="5.54545"
+        fill="#E7E7E7"
+      />
+      <rect
+        x="13.8636"
+        y="27.7266"
+        width="41.5909"
+        height="5.54545"
+        fill="#E7E7E7"
+      />
+      <rect
+        x="13.8636"
+        y="41.5908"
+        width="41.5909"
+        height="5.54545"
+        fill="#E7E7E7"
+      />
+      <rect
+        x="6.23859"
+        y="14.5565"
+        width="4.15909"
+        height="4.15909"
+        rx="2.07955"
+        fill="#5225CE"
+        stroke="#5225CE"
+        strokeWidth="1.38636"
+      />
+      <rect
+        x="6.23859"
+        y="28.4197"
+        width="4.15909"
+        height="4.15909"
+        rx="2.07955"
+        fill="#5225CE"
+        stroke="#5225CE"
+        strokeWidth="1.38636"
+      />
+      <rect
+        x="6.23859"
+        y="42.284"
+        width="4.15909"
+        height="4.15909"
+        rx="2.07955"
+        fill="#5225CE"
+        stroke="#5225CE"
+        strokeWidth="1.38636"
+      />
+    </svg>
+  );
+};

@@ -1,0 +1,150 @@
+$primary: #5225ce;
+$secondary: #001b79;
+$dark: #000000;
+$light: #ffffff;
+$info: rgba(0, 27, 121, 0.25);
+
+// Custom colors
+$accent: #da6d25;
+$success: #0d6efd;
+$warning: #ffc107;
+$danger: #dc3545;
+$reverse: rgba(244, 244, 244, 1);
+$text-gray: #6c757d;
+$theme-colors: (
+  primary: $primary,
+  secondary: $secondary,
+  success: $success,
+  info: $info,
+  warning: $warning,
+  danger: $danger,
+  light: $light,
+  dark: $dark,
+  accent: $accent,
+  reverse: $reverse,
+  text-gray: $text-gray,
+);
+
+@import "bootstrap/scss/bootstrap";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  transition: all 500ms ease-in-out;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #ffffff;
+  background-color: #ffffff;
+  color: initial;
+}
+
+.btn:hover {
+  // background-color: initial;
+  color: $primary;
+}
+
+.ProseMirror:focus {
+  outline: none;
+}
+
+.drop-down {
+  transform: translate(-50%, 10%) !important;
+}
+
+.label {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.max-content {
+  width: max-content;
+  z-index: 100 !important;
+}
+
+.items-center {
+  align-items: center !important;
+}
+.justify-center {
+  justify-content: center !important;
+}
+
+.border-0 {
+  border: none !important;
+}
+
+.outline-0 {
+  outline: none !important;
+}
+
+.z-top {
+  z-index: 1000;
+}
+.z-dropdown {
+  z-index: 3000;
+}
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+body {
+  background-color: $light;
+}
+
+.border {
+  border-color: rgba(82, 37, 206, 0.2) !important;
+}
+
+@font-face {
+  font-family: "GE SS Two";
+  src: url("./fonts/GESSTwoMedium-Medium.woff2") format("woff2"),
+    url("./fonts/GESSTwoMedium-Medium.woff") format("woff"),
+    url("./fonts/GESSTwoMedium-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GE SS Two";
+  src: url("./fonts/GESSTwoBold-Bold.woff2") format("woff2"),
+    url("./fonts/GESSTwoBold-Bold.woff") format("woff"),
+    url("./fonts/GESSTwoBold-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GE SS Two";
+  src: url("./fonts/GESSTwoLight-Light.woff2") format("woff2"),
+    url("./fonts/GESSTwoLight-Light.woff") format("woff"),
+    url("./fonts/GESSTwoLight-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "Tajawal";
+
+  color: #001b79;
+}
+
+.font-light {
+  font-family: "Tajawal " !important;
+}
+.text-pink {
+  color: #eb59b1;
+}
+::-webkit-scrollbar {
+  display: none;
+}
